@@ -6,4 +6,8 @@ package com.builtbroken.turtlearmor;
  */
 public class CommonProxy
 {
+    public void preInit()
+    {
+
+    }
 }
