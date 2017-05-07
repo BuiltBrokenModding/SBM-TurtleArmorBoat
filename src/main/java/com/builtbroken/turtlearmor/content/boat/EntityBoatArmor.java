@@ -1,6 +1,5 @@
 package com.builtbroken.turtlearmor.content.boat;
 
-import net.minecraft.entity.item.EntityBoat;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.nbt.NBTTagCompound;
@@ -31,6 +30,12 @@ public class EntityBoatArmor extends EntityBoat
     protected void updateFallState(double p_70064_1_, boolean p_70064_3_)
     {
         //TODO damage armor
+    }
+
+    @Override
+    protected void onImpactGroundHard()
+    {
+        
     }
 
     @Override
